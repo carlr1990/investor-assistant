@@ -32,16 +32,18 @@ Spring AI provides a clean abstraction over LLM providers, allowing us to:
 ### Prerequisites
 - Java 21
 - Maven 3.6+
+- OpenAI API Key
 
 ### Steps
 
 1. Clone the repository
-2. Build and Run - Command line into the project path and run following commands:
+2. Set environment variable: OPENAI_API_KEY=your-OpenAI-apikey
+3. Build and Run - Command line into the project path and run following commands:
 	mvn clean install
 	mvn spring-boot:run
 
    Alternatively import project into an IDE Run a Maven build and Run as a Spring Application.
-3. Access API in command line or in an API platform (eg. Postman) at 
+4. Access API in command line or in an API platform (eg. Postman) at 
 	
 	http://localhost:8080/api/assistant/chat
 

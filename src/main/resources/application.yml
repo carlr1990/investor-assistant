@@ -19,10 +19,10 @@ spring:
 
   ai:
     openai:
-      api-key: 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
+      api-key: ${OPENAI_API_KEY}
       chat:
         options:
-          model: gpt-5.4-mini
+          model: gpt-4o-mini
           temperature: 0.7
 
 server:
